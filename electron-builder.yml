@@ -1,0 +1,14 @@
+appId: "io.files"
+productName: "Files"
+
+asar: true
+
+files:
+    - "build/**/*"
+    - "node_modules/**/*"
+    - "server/**/*"
+
+win:
+    target: "portable"
+    artifactName: "scorehouse.${ext}"
+    icon: "build/icon.png"

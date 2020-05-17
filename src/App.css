@@ -1,0 +1,138 @@
+div.custom-container {
+  background-color:#313131;
+  height: 100%;
+  width: 100%;
+}
+
+.title-bar {
+  height: 30px;
+}
+
+/* Top input bar and clusters */
+.top {
+  display: grid;
+  grid-template-rows: 1fr;
+  background-color: #171717;
+  height: 5%;
+}
+
+.path-input {
+  height: 20px;
+  background-color: #4c5b64;
+  border-radius: 50px;
+  border-color: black;
+  padding: 0px 15px 0px 10px;
+  margin: 10px 50px 10px 50px;
+  color: #d8d8d8;
+  font-weight: 700;
+  font-size: small;
+}
+
+.cluster-list {
+  margin: 5px auto;
+  color: #d8d8d8;
+  display: inline;
+  list-style-type: none;
+}
+
+.cluster-list li {
+  font-weight: 700;
+  display: inline;
+  margin: 10px 50px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  border: 2px solid #000;
+}
+
+/* Main */
+
+main {
+  display: grid;
+  grid-template-columns: 300px 3fr;
+  height: 93%;
+  overflow: hidden;
+}
+
+.node-content {
+  height: 300px;
+  margin: 5px;
+  padding: 5px;
+  background-color: #3e3e3e;
+  color: #9DA5AB;
+  font-weight: 500;
+}
+
+.node-content > ol > li {
+  list-style-type: none;
+  margin: 5px 0px 5px 0px;
+}
+
+aside > ul {
+  background-color: #3e3e3e !important;
+  margin: 5px !important;
+}
+
+section {
+  display: grid;
+  grid-template-rows: minmax(50px, 100px) 97%;
+  background-color:  #242424;
+  height: 100%;
+}
+
+nav {
+  height: 3%;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  column-gap: 5px;
+}
+
+.tab {
+  padding: 5px;
+  background-color: #2f4f4f;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1em;
+  border: none;
+  color: #d8d8d8;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tab:hover {
+  background-color: #5c9b9b;
+  color: #fff;
+}
+
+.selected {
+  background-color: #242424; 
+  /* border-bottom: 4px solid #000; */
+  font-weight: 700;
+}
+
+.selected:focus {
+  outline: none;
+}
+
+
+.nodeNameBase {
+  fill: #d8d8d8 !important;
+  stroke: #d8d8d8 !important;
+  stroke-width: .5 !important;
+}
+
+
+.error {
+  border-color: red !important;
+}
+
+.err-message {
+  text-align: center;
+  color: #d8d8d8;
+  position: absolute;
+}
