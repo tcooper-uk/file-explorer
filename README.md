@@ -1,6 +1,6 @@
 # FileExplorer
 
-Simple ongoing file explorer project to play around with React + Electron. Development, this is not under "active" development.
+Simple ongoing file explorer project to play around with [React](https://reactjs.org/) + [Electron](https://www.electronjs.org/). This is not under "active" development.
 
 ## Prerequisites
 
