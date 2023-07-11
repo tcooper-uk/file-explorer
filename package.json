@@ -15,7 +15,7 @@
     "react-dom": "^16.13.1",
     "react-electron-titlebar": "^1.0.9",
     "react-force-graph-3d": "^1.14.4",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-treebeard": "^3.2.4"
   },
   "scripts": {
@@ -47,6 +47,6 @@
     "electron": "^8.2.3",
     "electron-builder": "^22.5.1",
     "typescript": "^3.8.3",
-    "wait-on": "^4.0.2"
+    "wait-on": "^7.0.1"
   }
 }
